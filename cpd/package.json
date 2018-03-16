@@ -2,7 +2,7 @@
   "name": "cpd",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/CS595/",
+  "homepage": " https://purlieu.github.io/CS595/",
   "dependencies": {
     "bootstrap": "^4.0.0",
     "create-react-class": "^15.6.3",
