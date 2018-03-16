@@ -7,6 +7,7 @@
     "bootstrap": "^4.0.0",
     "create-react-class": "^15.6.3",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^1.1.0",
     "react": "^16.2.0",
     "react-audio": "0.0.1",
     "react-bootstrap": "^0.32.1",
@@ -17,6 +18,8 @@
     "reactstrap": "^5.0.0-beta.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
